@@ -9,7 +9,13 @@
 		"48": "img/logo.png",
 		"128": "img/logo.png"
 	},
+	"action": {
+		"default_popup": "html/popup.html",
+		"default_icon": "img/logo.png",
+		"default_title": "CamIn 开映｜精彩视频 一录到位"
+	},
 	"background": {
 		"service_worker": "background.js"
-	}
+	},
+	"permissions": ["activeTab"]
 }
